@@ -29,7 +29,7 @@
 #include <signal.h>
 
 #include <libusb.h>
-
+#include <sys/time.h>
 
 #define EP_DATA_IN	0x82
 #define EP_ISO_IN	0x86
