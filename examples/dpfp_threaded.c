@@ -30,7 +30,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
-
+#include <sys/time.h>
 #include "libusb.h"
 
 #define EP_INTR			(1 | LIBUSB_ENDPOINT_IN)
