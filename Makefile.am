@@ -14,6 +14,10 @@ if BUILD_TESTS
 SUBDIRS += tests
 endif
 
+if OS_QNX
+SUBDIRS += examples tests
+endif
+
 pkgconfigdir=$(libdir)/pkgconfig
 pkgconfig_DATA=libusb-1.0.pc
 

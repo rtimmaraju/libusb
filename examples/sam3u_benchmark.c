@@ -29,7 +29,9 @@
 #include <signal.h>
 
 #include <libusb.h>
-
+#if defined(__QNXNTO__)
+#include <sys/time.h>
+#endif
 
 #define EP_DATA_IN	0x82
 #define EP_ISO_IN	0x86
