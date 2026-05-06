@@ -29,7 +29,7 @@
 #include <signal.h>
 
 #include <libusb.h>
-#if OS_QNX
+#if defined(__QNXNTO__)
 #include <sys/time.h>
 #endif
 

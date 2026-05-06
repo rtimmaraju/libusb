@@ -30,7 +30,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
-#if OS_QNX
+#if defined(__QNXNTO__)
 #include <sys/time.h>
 #endif
 #include "libusb.h"
