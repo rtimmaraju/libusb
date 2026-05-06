@@ -30,7 +30,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
+#if OS_QNX
 #include <sys/time.h>
+#endif
 #include "libusb.h"
 
 #define EP_INTR			(1 | LIBUSB_ENDPOINT_IN)
